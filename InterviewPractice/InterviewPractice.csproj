@@ -8,7 +8,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="01 - Arrays\" />
       <Folder Include="02-Strings\" />
       <Folder Include="03-Dictionary\" />
       <Folder Include="04-HashSet\" />
