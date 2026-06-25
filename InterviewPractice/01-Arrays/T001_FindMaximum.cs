@@ -1,13 +1,10 @@
 namespace InterviewPractice._01_Arrays;
 
-/*
- *
- * Умова
- * Дано масив цілих чисел.
- * Знайти найбільший елемент.
- * 
- */
-
+/// <summary>
+/// Умова
+/// Дано масив цілих чисел.
+/// Знайти найбільший елемент.
+/// </summary>
 public static class T001_FindMaximum
 {
     private const string TASK_NUMBER = "001";

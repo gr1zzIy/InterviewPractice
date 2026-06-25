@@ -1,5 +1,10 @@
 namespace InterviewPractice._01_Arrays;
 
+/// <summary>
+/// Умова
+/// Дано масив цілих чисел.
+/// Порахувати середнє значення елементів масиву.
+/// </summary>
 public class T004_AverageValue
 {
     private const string TASK_NUMBER = "004";

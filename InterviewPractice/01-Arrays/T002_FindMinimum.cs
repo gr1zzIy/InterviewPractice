@@ -1,5 +1,10 @@
 namespace InterviewPractice._01_Arrays;
 
+/// <summary>
+/// Умова
+/// Дано масив цілих чисел.
+/// Знайти найменший елемент масиву.
+/// </summary>
 public class T002_FindMinimum
 {
     private const string TASK_NUMBER = "002";

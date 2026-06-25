@@ -1,5 +1,10 @@
 namespace InterviewPractice._01_Arrays;
 
+/// <summary>
+/// Умова
+/// Дано масив цілих чисел.
+/// Порахувати суму всіх елементів масиву.
+/// </summary>
 public class T003_SumOfArray
 {
     private const string TASK_NUMBER = "003";
