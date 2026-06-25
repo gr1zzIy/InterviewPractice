@@ -5,7 +5,7 @@ namespace InterviewPractice._01_Arrays;
 /// Дано масив цілих чисел.
 /// Знайти другий найбільший елемент масиву.
 /// </summary>
-public class T005_SecondLargestElement
+public static class T005_SecondLargestElement
 {
     private const string TASK_NUMBER = "005";
 

@@ -24,5 +24,6 @@ All for improvement!");
         T004_AverageValue.Run(numbers);
         T005_SecondLargestElement.Run(numbers);
         T006_ContainsNumber.Run(numbers, target);
+        T007_CountEvenNumbers.Run(numbers);
     }
 }

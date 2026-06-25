@@ -5,7 +5,7 @@ namespace InterviewPractice._01_Arrays;
 /// Дано масив цілих чисел.
 /// Перевірити, чи містить масив задане число.
 /// </summary>
-public class T006_ContainsNumber
+public static class T006_ContainsNumber
 {
     private const string TASK_NUMBER = "006";
 

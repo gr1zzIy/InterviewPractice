@@ -5,7 +5,7 @@ namespace InterviewPractice._01_Arrays;
 /// Дано масив цілих чисел.
 /// Порахувати суму всіх елементів масиву.
 /// </summary>
-public class T003_SumOfArray
+public static class T003_SumOfArray
 {
     private const string TASK_NUMBER = "003";
 
