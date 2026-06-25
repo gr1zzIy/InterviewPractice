@@ -10,11 +10,6 @@ public class T004_AverageValue
         
         int length = numbers.Length;
 
-        if (length == 0)
-        {
-            numbers = [7, 2, 15, 4, 10];
-        }
-
         double average = 0;
 
         for (int i = 0; i < length; i++)

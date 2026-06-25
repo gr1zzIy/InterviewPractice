@@ -19,5 +19,6 @@ All for improvement!");
         T002_FindMinimum.Run([7, 2, 15, 4, 10]);
         T003_SumOfArray.Run([7, 2, 15, 4, 10]);
         T004_AverageValue.Run([7, 2, 15, 4, 10]);
+        T005_SecondLargestElement.Run([7, 2, 15, 4, 10]);
     }
 }

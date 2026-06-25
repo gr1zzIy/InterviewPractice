@@ -14,11 +14,6 @@ public static class T001_FindMaximum
     
     public static void Run(int[] numbers)
     {
-        if (numbers.Length == 0)
-        {
-            numbers = [7, 2, 15, 4, 10];
-        }
-        
         int max = numbers[0];
         
         // Console.WriteLine($"{TASK_NUMBER} - The maximum number is: {numbers.Max()}");

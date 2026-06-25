@@ -7,11 +7,6 @@ public class T002_FindMinimum
     public static void Run(int[] numbers)
     {
         int length = numbers.Length;
-        
-        if (length == 0)
-        {
-            numbers = [7, 2, 15, 4, 10];
-        }
 
         // Console.WriteLine($"{TASK_NUMBER} - The minimum number in the array is: {numbers.Min()}");
         
