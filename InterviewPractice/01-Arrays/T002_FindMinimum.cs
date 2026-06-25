@@ -2,7 +2,7 @@ namespace InterviewPractice._01_Arrays;
 
 public class T002_FindMinimum
 {
-    private const string TASK_NUMBER = "001";
+    private const string TASK_NUMBER = "002";
     
     public static void Run(int[] numbers)
     {
