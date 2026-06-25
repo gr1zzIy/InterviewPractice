@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="01 - Arrays\" />
+      <Folder Include="02-Strings\" />
+      <Folder Include="03-Dictionary\" />
+      <Folder Include="04-HashSet\" />
+      <Folder Include="05-Sorting\" />
+      <Folder Include="06-Stack\" />
+      <Folder Include="07-Queue\" />
+      <Folder Include="08-LINQ\" />
+      <Folder Include="09-Algorithms\" />
+      <Folder Include="10-Probability\" />
+    </ItemGroup>
+
+</Project>
