@@ -15,7 +15,7 @@ All for improvement!");
 
     private static void ArrayTasks()
     {
-        int[] numbers = {7, 2, 15, 4, 10};
+        int[] numbers = [7, 2, 15, 0, 4, 10];
         int target = 15;
         
         T001_FindMaximum.Run(numbers);
@@ -25,5 +25,6 @@ All for improvement!");
         T005_SecondLargestElement.Run(numbers);
         T006_ContainsNumber.Run(numbers, target);
         T007_CountEvenNumbers.Run(numbers);
+        T008_MoveZerosToEnd.Run(numbers);
     }
 }
