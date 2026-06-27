@@ -11,11 +11,13 @@ public static class T007_CountEvenNumbers
 
     public static void Run(int[] numbers)
     {
-        // Console.WriteLine($"{TASK_NUMBER} - The count of even numbers is: {numbers.Count(number => number % 2 == 0)}");
+        int[] array = (int[])numbers.Clone();
+        
+        // Console.WriteLine($"{TASK_NUMBER} - The count of even numbers is: {array.Count(number => number % 2 == 0)}");
 
         int count = 0;
         
-        foreach (var number in numbers)
+        foreach (var number in array)
         {
             if (number % 2 == 0)
             {

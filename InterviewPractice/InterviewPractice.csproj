@@ -15,7 +15,6 @@
       <Folder Include="06-Stack\" />
       <Folder Include="07-Queue\" />
       <Folder Include="08-LINQ\" />
-      <Folder Include="09-Algorithms\" />
       <Folder Include="10-Probability\" />
     </ItemGroup>
 

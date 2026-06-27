@@ -11,7 +11,8 @@ public class T008_MoveZerosToEnd
 
     public static void Run(int[] numbers)
     {
-        int length = numbers.Length;
+        int[] array = (int[])numbers.Clone();
+        int length = array.Length;
         
         if (length == 0)
             return;
@@ -21,13 +22,13 @@ public class T008_MoveZerosToEnd
         
         for (int i = 0; i < length; i++)
         {
-            if (numbers[i] == 0)
+            if (array[i] == 0)
             {
                 zeroCount++;
                 continue;
             }
             
-            result[i-zeroCount] = numbers[i];
+            result[i-zeroCount] = array[i];
         }
 
         for (int i = 0; i < zeroCount; i++)
@@ -35,7 +36,7 @@ public class T008_MoveZerosToEnd
             result[length - 1 - i] = 0;
         }
         
-        string originalString = string.Join(", ", numbers);
+        string originalString = string.Join(", ", array);
         string resultString = string.Join(", ", result);
         
         Console.WriteLine($"{TASK_NUMBER} - Result: \n\toriginal: {originalString}\n\tresult: {resultString}");

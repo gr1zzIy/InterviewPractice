@@ -11,15 +11,19 @@ public static class T006_ContainsNumber
 
     public static void Run(int[] numbers, int target)
     {
-        // Console.WriteLine($"{TASK_NUMBER} - The array contains the number: {numbers.Contains(target)}");
+        int[] array = (int[])numbers.Clone();
+        
+        // Console.WriteLine($"{TASK_NUMBER} - The array contains the number: {array.Contains(target)}");
 
-        foreach (int number in numbers)
+        foreach (var t in array)
         {
-            if (number == target)
+            if (t == target)
             {
-                Console.WriteLine($"{TASK_NUMBER} - The array contains the number: {number}");
+                Console.WriteLine($"{TASK_NUMBER} - The array contains the number: {t}");
                 return;
             }
         }
+        
+        Console.WriteLine($"{TASK_NUMBER} - The array does not contain the number: {target}");
     }
 }

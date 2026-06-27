@@ -11,15 +11,16 @@ public static class T001_FindMaximum
     
     public static void Run(int[] numbers)
     {
-        int max = numbers[0];
+        int[] array = (int[])numbers.Clone();
+        int max = array[0];
         
-        // Console.WriteLine($"{TASK_NUMBER} - The maximum number is: {numbers.Max()}");
+        // Console.WriteLine($"{TASK_NUMBER} - The maximum number is: {array.Max()}");
 
-        for (int i = 0; i < numbers.Length; i++)
+        for (int i = 0; i < array.Length; i++)
         {
-            if (numbers[i] > max)
+            if (array[i] > max)
             {
-                max = numbers[i];
+                max = array[i];
             }
         }
         

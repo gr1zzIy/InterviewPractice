@@ -11,17 +11,18 @@ public static class T002_FindMinimum
     
     public static void Run(int[] numbers)
     {
-        int length = numbers.Length;
+        int[] array = (int[])numbers.Clone();
+        int length = array.Length;
 
-        // Console.WriteLine($"{TASK_NUMBER} - The minimum number in the array is: {numbers.Min()}");
+        // Console.WriteLine($"{TASK_NUMBER} - The minimum number in the array is: {array.Min()}");
         
-        int min = numbers[0];
+        int min = array[0];
 
         for (int i = 0; i < length; i++)
         {
-            if (numbers[i] < min)
+            if (array[i] < min)
             {
-                min = numbers[i];
+                min = array[i];
             }
         }
         

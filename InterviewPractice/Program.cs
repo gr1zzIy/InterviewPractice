@@ -15,7 +15,8 @@ All for improvement!");
 
     private static void ArrayTasks()
     {
-        int[] numbers = [7, 2, 15, 0, 4, 10, 10, 0, 2];
+        int[] numbers = [7, 2, 15, 0, 4, 10, 11, 10, 0, 8, 2];
+        int[] missingOneNumber = [2, 5, 3, 1, 6, 7];
         int target = 15;
         
         T001_FindMaximum.Run(numbers);
@@ -27,5 +28,6 @@ All for improvement!");
         T007_CountEvenNumbers.Run(numbers);
         T008_MoveZerosToEnd.Run(numbers);
         T009_RemoveDuplicatesUnsorted.Run(numbers);
+        T010_FindMissingNumber.Run(missingOneNumber);
     }
 }
