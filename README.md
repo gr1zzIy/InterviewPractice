@@ -3,4 +3,4 @@
 Goal:
 Improve problem solving and data structures skills.
 
-Solved problems: 12/100
+Solved problems: 13/100

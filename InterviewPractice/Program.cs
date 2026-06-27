@@ -20,6 +20,10 @@ All for improvement!");
         int[] prices = [7,1,5,3,6,4]; // expected max profit = 5
         int[] prices2 = [7,6,4,3,1]; // expected max profit = 0
         int target = 15;
+
+        // merged = [1, 1, 2, 3, 4, 4]
+        int[] nums1 = [1, 2, 4];
+        int[] nums2 = [1, 3, 4]; 
         
         T001_FindMaximum.Run(numbers);
         T002_FindMinimum.Run(numbers);
@@ -33,5 +37,6 @@ All for improvement!");
         T010_FindMissingNumber.Run(missingOneNumber);
         T011_TwoSum.Run(numbers, target);
         T012_MaxProfit.Run(prices);
+        T013_MergeTwoSortedArrays.Run(nums1, nums2);
     }
 }
