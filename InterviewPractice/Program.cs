@@ -29,5 +29,6 @@ All for improvement!");
         T008_MoveZerosToEnd.Run(numbers);
         T009_RemoveDuplicatesUnsorted.Run(numbers);
         T010_FindMissingNumber.Run(missingOneNumber);
+        T011_TwoSum.Run(numbers, target);
     }
 }
