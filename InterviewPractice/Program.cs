@@ -17,6 +17,8 @@ All for improvement!");
     {
         int[] numbers = [7, 2, 15, 0, 4, 10, 11, 10, 0, 8, 2];
         int[] missingOneNumber = [2, 5, 3, 1, 6, 7];
+        int[] prices = [7,1,5,3,6,4]; // expected max profit = 5
+        int[] prices2 = [7,6,4,3,1]; // expected max profit = 0
         int target = 15;
         
         T001_FindMaximum.Run(numbers);
@@ -30,5 +32,6 @@ All for improvement!");
         T009_RemoveDuplicatesUnsorted.Run(numbers);
         T010_FindMissingNumber.Run(missingOneNumber);
         T011_TwoSum.Run(numbers, target);
+        T012_MaxProfit.Run(prices);
     }
 }
