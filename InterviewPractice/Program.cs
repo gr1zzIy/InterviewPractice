@@ -47,5 +47,6 @@ All for improvement!");
         T016_RemoveNegativeNumbers.Run(new List<int> { 1, -2, 3, -4, 5 });
         T017_InsertNumber.Run(new List<int> { 1, 2, 3, 4, 5 }, 99, 2);
         T018_RemoveRange.Run(new List<int> { 1, 2, 3, 4, 5 }, 1, 3);
+        T019_MergeLists.Run(new List<int> { 1, 2, 3 }, new List<int> { 4, 5, 6 });
     }
 }
