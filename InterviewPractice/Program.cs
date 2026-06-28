@@ -1,4 +1,5 @@
 using InterviewPractice._01_Arrays;
+using InterviewPractice._02_Lists;
 
 namespace InterviewPractice;
 
@@ -6,7 +7,8 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        ArrayTasks();
+        // ArrayTasks();
+        ListTasks();
         
         Console.WriteLine(@"
 --------------------
@@ -38,5 +40,10 @@ All for improvement!");
         T011_TwoSum.Run(numbers, target);
         T012_MaxProfit.Run(prices);
         T013_MergeTwoSortedArrays.Run(nums1, nums2);
+    }
+
+    private static void ListTasks()
+    {
+        T016_RemoveNegativeNumbers.Run(new List<int> { 1, -2, 3, -4, 5 });
     }
 }
