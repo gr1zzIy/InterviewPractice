@@ -1,5 +1,13 @@
 namespace InterviewPractice._03_Strings;
 
+/// <summary>
+/// Задача 021 — Count Vowels
+/// Умова
+/// Дано рядок.
+/// Порахувати кількість голосних букв.
+/// Враховувати лише англійські голосні: a e i o u
+/// Регістр не має значення.
+/// </summary>
 public class T021_CountVowels
 {
     private const string TASK_NUMBER = "021";

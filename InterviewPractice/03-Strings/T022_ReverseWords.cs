@@ -1,5 +1,11 @@
 namespace InterviewPractice._03_Strings;
 
+/// <summary>
+/// Задача 022 — Reverse Words
+/// Умова
+/// Є речення.
+/// Потрібно розвернути порядок слів, а не символів.
+/// </summary>
 public class T022_ReverseWords
 {
     private const string TASK_NUMBER = "022";
