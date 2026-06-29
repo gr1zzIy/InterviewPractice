@@ -56,5 +56,6 @@ All for improvement!");
     private static void StringTasks()
     {
         T021_CountVowels.Run("Hello World"); // 3
+        T022_ReverseWords.Run("I love C#"); // C# love I
     }
 }
