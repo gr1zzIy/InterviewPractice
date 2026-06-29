@@ -1,5 +1,6 @@
 using InterviewPractice._01_Arrays;
 using InterviewPractice._02_Lists;
+using InterviewPractice._03_Strings;
 
 namespace InterviewPractice;
 
@@ -8,7 +9,8 @@ public class Program
     public static void Main(string[] args)
     {
         // ArrayTasks();
-        ListTasks();
+        // ListTasks();
+        StringTasks();
         
         Console.WriteLine(@"
 --------------------
@@ -49,5 +51,10 @@ All for improvement!");
         T018_RemoveRange.Run(new List<int> { 1, 2, 3, 4, 5 }, 1, 3); // [1, 5]
         T019_MergeLists.Run(new List<int> { 1, 2, 3 }, new List<int> { 4, 5, 6 }); // [1, 2, 3, 4, 5, 6]
         T020_RemoveDuplicatesFromList.Run(new List<int> { 5, 3, 5, 2, 3, 1 }); // [5, 3, 2, 1]
+    }
+    
+    private static void StringTasks()
+    {
+        T021_CountVowels.Run("Hello World"); // 3
     }
 }

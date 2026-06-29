@@ -9,7 +9,6 @@
 
     <ItemGroup>
       <Folder Include="04-Dictionary\" />
-      <Folder Include="03-Strings\" />
       <Folder Include="05-HashSet\" />
       <Folder Include="06-Sorting\" />
       <Folder Include="08-Stack\" />
