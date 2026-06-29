@@ -44,9 +44,10 @@ All for improvement!");
 
     private static void ListTasks()
     {
-        T016_RemoveNegativeNumbers.Run(new List<int> { 1, -2, 3, -4, 5 });
-        T017_InsertNumber.Run(new List<int> { 1, 2, 3, 4, 5 }, 99, 2);
-        T018_RemoveRange.Run(new List<int> { 1, 2, 3, 4, 5 }, 1, 3);
-        T019_MergeLists.Run(new List<int> { 1, 2, 3 }, new List<int> { 4, 5, 6 });
+        T016_RemoveNegativeNumbers.Run(new List<int> { 1, -2, 3, -4, 5 }); // [1, 3, 5]
+        T017_InsertNumber.Run(new List<int> { 1, 2, 3, 4, 5 }, 99, 2); // [1, 2, 99, 3, 4, 5]
+        T018_RemoveRange.Run(new List<int> { 1, 2, 3, 4, 5 }, 1, 3); // [1, 5]
+        T019_MergeLists.Run(new List<int> { 1, 2, 3 }, new List<int> { 4, 5, 6 }); // [1, 2, 3, 4, 5, 6]
+        T020_RemoveDuplicatesFromList.Run(new List<int> { 5, 3, 5, 2, 3, 1 }); // [5, 3, 2, 1]
     }
 }

@@ -8,13 +8,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="03-Dictionary\" />
-      <Folder Include="04-HashSet\" />
-      <Folder Include="05-Sorting\" />
-      <Folder Include="06-Stack\" />
+      <Folder Include="04-Dictionary\" />
+      <Folder Include="03-Strings\" />
+      <Folder Include="05-HashSet\" />
+      <Folder Include="06-Sorting\" />
+      <Folder Include="08-Stack\" />
       <Folder Include="07-Queue\" />
-      <Folder Include="08-LINQ\" />
-      <Folder Include="10-Probability\" />
+      <Folder Include="09-LINQ\" />
+      <Folder Include="11-Probability\" />
     </ItemGroup>
 
 </Project>
