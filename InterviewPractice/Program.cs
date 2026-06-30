@@ -58,6 +58,7 @@ All for improvement!");
         T021_CountVowels.Run("Hello World"); // 3
         T022_ReverseWords.Run("I love C#"); // C# love I
         T023_LongestWord.Run("I love programming in CSharp"); // programming
-        T024_WordCounter.Run("I   love     C#"); // 5
+        T024_WordCounter.Run("I   love     C#"); // 3
+        T025_FirstNonRepeatingCharacter.Run("aabbcdde"); // c
     }
 }
