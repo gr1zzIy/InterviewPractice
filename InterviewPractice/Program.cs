@@ -60,5 +60,6 @@ All for improvement!");
         T023_LongestWord.Run("I love programming in CSharp"); // programming
         T024_WordCounter.Run("I   love     C#"); // 3
         T025_FirstNonRepeatingCharacter.Run("aabbcdde"); // c
+        T026_CompressString.Run("aaabbcccc"); // a3b2c4
     }
 }
