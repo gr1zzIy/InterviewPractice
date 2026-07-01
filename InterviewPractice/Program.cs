@@ -62,5 +62,6 @@ All for improvement!");
         T025_FirstNonRepeatingCharacter.Run("aabbcdde"); // c
         T026_CompressString.Run("aaabbcccc"); // a3b2c4
         T027_RemoveDuplicateCharacters.Run("programming"); // progamin
+        T028_CountDigits.Run("abc123de45"); // 5
     }
 }
