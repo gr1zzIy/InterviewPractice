@@ -63,5 +63,6 @@ All for improvement!");
         T026_CompressString.Run("aaabbcccc"); // a3b2c4
         T027_RemoveDuplicateCharacters.Run("programming"); // progamin
         T028_CountDigits.Run("abc123de45"); // 5
+        T029_IsSentencePalindrome.Run("A man a plan a canal Panama"); // true
     }
 }
