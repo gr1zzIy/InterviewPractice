@@ -17,7 +17,7 @@ public class T031_WordFrequency
     {
         Dictionary<string, int> dictionary = new Dictionary<string, int>();
         
-        string[] words = input.Split(' ');
+        string[] words = input.ToLowerInvariant().Split(' ');
         StringBuilder result = new StringBuilder();
         
         foreach (string word in words)
