@@ -1,6 +1,7 @@
 using InterviewPractice._01_Arrays;
 using InterviewPractice._02_Lists;
 using InterviewPractice._03_Strings;
+using InterviewPractice._04_Dictionary;
 
 namespace InterviewPractice;
 
@@ -10,7 +11,8 @@ public class Program
     {
         // ArrayTasks();
         // ListTasks();
-        StringTasks();
+        // StringTasks();
+        DictionaryTasks();
         
         Console.WriteLine(@"
 --------------------
@@ -65,5 +67,10 @@ All for improvement!");
         T028_CountDigits.Run("abc123de45"); // 5
         T029_IsSentencePalindrome.Run("A man a plan a canal Panama"); // true
         T030_MostFrequentCharacter.Run("programming"); // r
+    }
+
+    private static void DictionaryTasks()
+    {
+        T031_WordFrequency.Run("I love programming and I love C#"); // I - 2, love - 2, programming - 1, and - 1, C# - 1
     }
 }
