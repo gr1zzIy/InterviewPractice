@@ -34,9 +34,9 @@ public class T031_WordFrequency
 
         foreach (var record in dictionary)
         {
-            result.AppendLine($"\t{record.Key} - {record.Value}");
+            result.AppendLine($"\t{record.Key} -> {record.Value}");
         }
         
-        Console.WriteLine($"{TASK_NUMBER} - [{input}] Results:\n{result.ToString()}");
+        Console.WriteLine($"{TASK_NUMBER} - [{input}] Results:\n{result}");
     }
 }

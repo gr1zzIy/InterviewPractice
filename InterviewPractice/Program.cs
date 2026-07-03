@@ -72,5 +72,6 @@ All for improvement!");
     private static void DictionaryTasks()
     {
         T031_WordFrequency.Run("I love programming and i love C#"); // I - 2, love - 2, programming - 1, and - 1, C# - 1
+        T032_CharacterFrequency.Run("banana"); // b - 1, a - 3, n - 2
     }
 }
