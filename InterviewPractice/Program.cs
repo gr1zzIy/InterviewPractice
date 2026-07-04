@@ -83,5 +83,6 @@ All for improvement!");
             "#java hi",
             "wanna job position in ONSEO #onseo"
         });
+        T036_GroupWordsByFirstLetter.Run("apple banana apricot cherry date elderberry fig grape");
     }
 }
