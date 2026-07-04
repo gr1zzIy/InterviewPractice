@@ -75,5 +75,13 @@ All for improvement!");
         T032_CharacterFrequency.Run("banana"); // b - 1, a - 3, n - 2
         T033_MostFrequentWord.Run("cat dog cat bird dog cat"); // cat
         T034_Top3FrequentWords.Run("apple banana apple orange banana apple grape"); // apple - 3, banana - 2, orange - 1
+        T035_HashtagCounter.Run(new List<string>
+        {
+            "I love #programming", 
+            "#CSharp is great", 
+            "I love #CSharp and #programming",
+            "#java hi",
+            "wanna job position in ONSEO #onseo"
+        });
     }
 }
