@@ -83,7 +83,8 @@ All for improvement!");
             "#java hi",
             "wanna job position in ONSEO #onseo"
         });
-        T036_GroupWordsByFirstLetter.Run("apple banana apricot cherry date elderberry fig grape");
-        T037_FindDuplicatedWords.Run("cat dog cat bird dog cat");
+        T036_GroupWordsByFirstLetter.Run("apple banana apricot cherry date elderberry fig grape"); 
+        T037_FindDuplicatedWords.Run("cat dog cat bird dog cat"); // cat dog
+        T038_FirstUniqueWord.Run("apple banana apple orange banana apple grape"); // orange
     }
 }
