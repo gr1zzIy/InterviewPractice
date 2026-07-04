@@ -71,6 +71,9 @@ All for improvement!");
 
     private static void DictionaryTasks()
     {
+        // Part 1
+        Console.WriteLine("Part 1:");
+        
         T031_WordFrequency.Run("I love programming and i love C#"); // I - 2, love - 2, programming - 1, and - 1, C# - 1
         T032_CharacterFrequency.Run("banana"); // b - 1, a - 3, n - 2
         T033_MostFrequentWord.Run("cat dog cat bird dog cat"); // cat
@@ -88,5 +91,10 @@ All for improvement!");
         T038_FirstUniqueWord.Run("apple banana apple orange banana apple grape"); // orange
         T039_TwoSumDictionary.Run(new int[] { 2, 7, 11, 15 }, 9); // [0, 1]
         T040_CountNumbers.Run(new int[] { 1, 2, 2, 3, 3, 3, 4 }); // 1 - 1, 2 - 2, 3 - 3, 4 - 1
+        
+        // Part 2
+        Console.WriteLine("\nPart 2:");
+        
+        T041_GroupAnagrams.Run(new List<string> { "eat", "tea", "tan", "ate", "nat", "bat" }); // [eat, tea, ate], [tan, nat], [bat]
     }
 }
