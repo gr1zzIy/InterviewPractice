@@ -86,5 +86,6 @@ All for improvement!");
         T036_GroupWordsByFirstLetter.Run("apple banana apricot cherry date elderberry fig grape"); 
         T037_FindDuplicatedWords.Run("cat dog cat bird dog cat"); // cat dog
         T038_FirstUniqueWord.Run("apple banana apple orange banana apple grape"); // orange
+        T039_TwoSumDictionary.Run(new int[] { 2, 7, 11, 15 }, 9); // [0, 1]
     }
 }
