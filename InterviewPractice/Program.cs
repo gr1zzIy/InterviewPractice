@@ -84,5 +84,6 @@ All for improvement!");
             "wanna job position in ONSEO #onseo"
         });
         T036_GroupWordsByFirstLetter.Run("apple banana apricot cherry date elderberry fig grape");
+        T037_FindDuplicatedWords.Run("cat dog cat bird dog cat");
     }
 }

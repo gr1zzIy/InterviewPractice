@@ -36,7 +36,7 @@ public class T036_GroupWordsByFirstLetter
 
         foreach (var record in dictionary)
         {
-            result.AppendLine($"{record.Key} -> {record.Value}");
+            result.AppendLine($"\t{record.Key} -> {record.Value}");
         }
         
         Console.WriteLine($"{TASK_NUMBER} - [{input}] Group Words By First Letter:\n{result}");
