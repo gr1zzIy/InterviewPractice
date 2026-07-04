@@ -12,14 +12,15 @@ public class T039_TwoSumDictionary
     public static void Run(int[] nums, int target)
     {
         Dictionary<int, int> numToIndex = new Dictionary<int, int>();
-
+        string originalNums = string.Join(", ", nums);
+        
         for (int i = 0; i < nums.Length; i++)
         {
             int necessary = target - nums[i];
             
             if (numToIndex.TryGetValue(necessary, out int index))
             {
-                Console.WriteLine($"{TASK_NUMBER} - Result: [{index}, {i}]");
+                Console.WriteLine($"{TASK_NUMBER} - [{originalNums}] Result: [{index}, {i}]");
                 return;
             }
 
@@ -27,6 +28,6 @@ public class T039_TwoSumDictionary
             numToIndex[nums[i]] = i; // краще перезаписати якщо є 
         }
 
-        Console.WriteLine($"{TASK_NUMBER} - No two sum solution found.");
+        Console.WriteLine($"{TASK_NUMBER} - [{originalNums}] No two sum solution found.");
     }
 }
