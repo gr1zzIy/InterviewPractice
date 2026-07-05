@@ -97,5 +97,6 @@ All for improvement!");
         
         T041_GroupAnagrams.Run(new List<string> { "eat", "tea", "tan", "ate", "nat", "bat" }); // [eat, tea, ate], [tan, nat], [bat]
         T042_IsomorphicStrings.Run(new List<string> { "egg", "add" }); // True
+        T043_RansomNote.Run(new List<string> { "hello", "olehhl" }); // True
     }
 }
