@@ -114,5 +114,14 @@ All for improvement!");
         }); // Ukraine : UA, Poland : PL, Germany : DE
         T048_CountPairs.Run(new int[] { 1, 1, 2, 2, 2, 3 }); // Count pairs: 2
         T049_MostFrequentNumber.Run(new int[] { 1, 2, 2, 3, 3, 3, 4 }); // Most frequent number: 3
+        T050_MiniInterviewHashtags.Run(new List<string>
+        {
+            "I love #dotnet #csharp",
+            "#dotnet is awesome",
+            "#csharp #dotnet",
+            "#sql #dotnet",
+            "#csharp #sql",
+            "#git"
+        });
     }
 }
