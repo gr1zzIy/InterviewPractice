@@ -72,7 +72,7 @@ All for improvement!");
     private static void DictionaryTasks()
     {
         // Part 1
-        Console.WriteLine("Part 1:");
+        Console.WriteLine("Part 1:\n");
         
         T031_WordFrequency.Run("I love programming and i love C#"); // I - 2, love - 2, programming - 1, and - 1, C# - 1
         T032_CharacterFrequency.Run("banana"); // b - 1, a - 3, n - 2
@@ -84,7 +84,7 @@ All for improvement!");
             "#CSharp is great", 
             "I love #CSharp and #programming",
             "#java hi",
-            "wanna job position in ONSEO #onseo"
+            "I wanna job in ONSEO #onseo"
         });
         T036_GroupWordsByFirstLetter.Run("apple banana apricot cherry date elderberry fig grape"); 
         T037_FindDuplicatedWords.Run("cat dog cat bird dog cat"); // cat dog
@@ -93,10 +93,11 @@ All for improvement!");
         T040_CountNumbers.Run(new int[] { 1, 2, 2, 3, 3, 3, 4 }); // 1 - 1, 2 - 2, 3 - 3, 4 - 1
         
         // Part 2
-        Console.WriteLine("\nPart 2:");
+        Console.WriteLine("\nPart 2:\n");
         
         T041_GroupAnagrams.Run(new List<string> { "eat", "tea", "tan", "ate", "nat", "bat" }); // [eat, tea, ate], [tan, nat], [bat]
         T042_IsomorphicStrings.Run(new List<string> { "egg", "add" }); // True
         T043_RansomNote.Run(new List<string> { "hello", "olehhl" }); // True
+        T044_IntersectionOfArrays.Run(new int[] { 1, 2, 2, 1 }, new int[] { 2, 2 }); // [2]
     }
 }

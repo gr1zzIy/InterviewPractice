@@ -36,6 +36,6 @@ public class T041_GroupAnagrams
             result.AppendLine($"\t[{string.Join(", ", record.Value)}]");
         }
         
-        Console.WriteLine($"\nTask {TASK_NUMBER}: Group Anagrams\nInput: [{string.Join(", ", words)}]\nOutput:\n{result}");
+        Console.WriteLine($"{TASK_NUMBER}: Group Anagrams\nInput: [{string.Join(", ", words)}]\nOutput:\n{result}");
     }
 }
