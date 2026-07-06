@@ -130,5 +130,6 @@ All for improvement!");
     private static void HashSetTasks()
     {
         T051_RemoveDuplicates.Run(new int[] { 1, 2, 3, 2, 1, 4, 5 }); // [1, 2, 3, 4, 5]
+        T052_FindFirstDuplicate.Run(new int[] { 1, 2, 3, 2, 1, 4, 5 }); // First duplicate: 2
     }
 }
