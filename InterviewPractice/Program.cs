@@ -112,5 +112,6 @@ All for improvement!");
             { "PL", "Poland"},
             { "DE", "Germany"}
         }); // Ukraine : UA, Poland : PL, Germany : DE
+        T048_CountPairs.Run(new int[] { 1, 1, 2, 2, 2, 3 }); // Count pairs: 2
     }
 }
