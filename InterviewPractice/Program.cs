@@ -105,5 +105,6 @@ All for improvement!");
             "testemail@gmail.com",
             "test.email+abc@gmail.com",
         }); // 1
+        T046_FindPairWithSum.Run(new int[] { 10, 15, 3, 7 }, 17); // True
     }
 }
