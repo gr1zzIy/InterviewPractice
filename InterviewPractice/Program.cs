@@ -99,5 +99,11 @@ All for improvement!");
         T042_IsomorphicStrings.Run(new List<string> { "egg", "add" }); // True
         T043_RansomNote.Run(new List<string> { "hello", "olehhl" }); // True
         T044_IntersectionOfArrays.Run(new int[] { 1, 2, 2, 1 }, new int[] { 2, 2 }); // [2]
+        T045_UniqueEmails.Run(new List<string>
+        {
+            "test.email+spam@gmail.com",
+            "testemail@gmail.com",
+            "test.email+abc@gmail.com",
+        }); // 1
     }
 }

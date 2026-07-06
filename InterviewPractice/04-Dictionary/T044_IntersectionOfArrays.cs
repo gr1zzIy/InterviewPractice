@@ -37,6 +37,6 @@ public class T044_IntersectionOfArrays
 		var arrayFirst = string.Join(", ", first);
 		var arraySecond = string.Join(", ", second);
 		
-		Console.WriteLine($"{TASK_NUMBER}:\n\tFirst: {arrayFirst}\n\tSecond: {arraySecond}\n\tIntersection of arrays: [{result}]");
+		Console.WriteLine($"{TASK_NUMBER} - \n\tFirst: {arrayFirst}\n\tSecond: {arraySecond}\n\tIntersection of arrays: [{result}]");
 	}
 }
