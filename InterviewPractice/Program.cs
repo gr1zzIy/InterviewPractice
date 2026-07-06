@@ -113,5 +113,6 @@ All for improvement!");
             { "DE", "Germany"}
         }); // Ukraine : UA, Poland : PL, Germany : DE
         T048_CountPairs.Run(new int[] { 1, 1, 2, 2, 2, 3 }); // Count pairs: 2
+        T049_MostFrequentNumber.Run(new int[] { 1, 2, 2, 3, 3, 3, 4 }); // Most frequent number: 3
     }
 }
