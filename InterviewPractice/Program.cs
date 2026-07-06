@@ -106,5 +106,11 @@ All for improvement!");
             "test.email+abc@gmail.com",
         }); // 1
         T046_FindPairWithSum.Run(new int[] { 10, 15, 3, 7 }, 17); // True
+        T047_InvertDictionary.Run(new Dictionary<string, string>
+        {
+            { "UA", "Ukraine" },
+            { "PL", "Poland"},
+            { "DE", "Germany"}
+        }); // Ukraine : UA, Poland : PL, Germany : DE
     }
 }
