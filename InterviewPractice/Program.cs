@@ -2,6 +2,7 @@ using InterviewPractice._01_Arrays;
 using InterviewPractice._02_Lists;
 using InterviewPractice._03_Strings;
 using InterviewPractice._04_Dictionary;
+using InterviewPractice._05_HashSet;
 
 namespace InterviewPractice;
 
@@ -12,7 +13,8 @@ public class Program
         // ArrayTasks();
         // ListTasks();
         // StringTasks();
-        DictionaryTasks();
+        // DictionaryTasks();
+        HashSetTasks();
         
         Console.WriteLine(@"
 --------------------
@@ -123,5 +125,10 @@ All for improvement!");
             "#csharp #sql",
             "#git"
         });
+    }
+    
+    private static void HashSetTasks()
+    {
+        T051_RemoveDuplicates.Run(new int[] { 1, 2, 3, 2, 1, 4, 5 }); // [1, 2, 3, 4, 5]
     }
 }
