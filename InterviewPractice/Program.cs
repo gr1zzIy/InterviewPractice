@@ -133,5 +133,6 @@ All for improvement!");
         T052_FindFirstDuplicate.Run(new int[] { 1, 2, 3, 2, 1, 4, 5 }); // First duplicate: 2
         T053_ContainsDuplicates.Run(new int[] { 1, 2, 3 }); // false
         T054_CommonElements.Run(new int[] { 1, 2, 3, 4 }, new int[] { 3, 4, 5, 6 }); // [3, 4]
+        T055_MissingNumbers.Run(new int[] { 1, 2, 4, 6 }, 6); // [3, 5]
     }
 }
