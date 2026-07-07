@@ -134,5 +134,6 @@ All for improvement!");
         T053_ContainsDuplicates.Run(new int[] { 1, 2, 3 }); // false
         T054_CommonElements.Run(new int[] { 1, 2, 3, 4 }, new int[] { 3, 4, 5, 6 }); // [3, 4]
         T055_MissingNumbers.Run(new int[] { 1, 2, 4, 6 }, 6); // [3, 5]
+        T056_LongestConsecutiveSequence.Run(new int[] { 100, 4, 200, 1, 3, 2 }); // The longest consecutive sequence is: 4
     }
 }
