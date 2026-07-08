@@ -17,11 +17,8 @@ public class T057_DifferenceBetweenArrays
 		
 		foreach (var num in second)
 		{
-			if (diff.Contains(num))
-			{
-				diff.Remove(num);
-			}
-		}
+            diff.Remove(num);
+        }
 		
 		string result = string.Join(", ", diff);
 		
