@@ -137,5 +137,11 @@ All for improvement!");
         T056_LongestConsecutiveSequence.Run(new int[] { 100, 4, 200, 1, 3, 2 }); // The longest consecutive sequence is: 4
         T057_DifferenceBetweenArrays.Run(new int[] { 1, 2, 3, 4 }, new int[] { 3, 4, 5 }); // [1, 2]
         T058_SymmetricDifference.Run(new int[] { 1, 2, 3, 4 }, new int[] { 3, 4, 5 }); // [1, 2, 5]
+        T059_UniqueWords.Run(new List<string>
+        {
+            "I love programming",
+            "Programming is fun",
+            "I love C#"
+        }); // Unique words: 6
     }
 }
