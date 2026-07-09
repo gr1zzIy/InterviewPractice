@@ -3,6 +3,7 @@ using InterviewPractice._02_Lists;
 using InterviewPractice._03_Strings;
 using InterviewPractice._04_Dictionary;
 using InterviewPractice._05_HashSet;
+using InterviewPractice._06_Sorting;
 
 namespace InterviewPractice;
 
@@ -14,7 +15,8 @@ public class Program
         // ListTasks();
         // StringTasks();
         // DictionaryTasks();
-        HashSetTasks();
+        // HashSetTasks();
+        SortingTasks();
         
         Console.WriteLine(@"
 --------------------
@@ -144,5 +146,15 @@ All for improvement!");
             "I love C#"
         }); // Unique words: 6
         T060_UniqueVisitors.Run(new List<int> { 1, 2, 3, 2, 1, 4, 5 }); // Unique visitors: 5
+    }
+    
+    private static void SortingTasks()
+    {
+        int[] numbers = { 5, 2, 9, 1, 5 };
+        int[] sortedNumbersBubble = T061_BubbleSortAndSelectionSort.BubbleSort((int[])numbers.Clone());
+        int[] sortedNumbersSelection = T061_BubbleSortAndSelectionSort.SelectionSort((int[])numbers.Clone());
+
+        Console.WriteLine($"Bubble Sort Result: [{string.Join(", ", sortedNumbersBubble)}]");
+        Console.WriteLine($"Selection Sort Result: [{string.Join(", ", sortedNumbersSelection)}]");
     }
 }

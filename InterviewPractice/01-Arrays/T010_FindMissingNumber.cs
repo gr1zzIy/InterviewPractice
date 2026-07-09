@@ -1,3 +1,4 @@
+using InterviewPractice._06_Sorting;
 using InterviewPractice._09_Algorithms;
 
 namespace InterviewPractice._01_Arrays;
@@ -17,7 +18,7 @@ public class T010_FindMissingNumber
         int[] array = (int[])numbers.Clone();
         int length = array.Length;
         
-        int[] sortedArray = BubbleSort.Execute(array, length);
+        int[] sortedArray = T061_BubbleSortAndSelectionSort.BubbleSort(array);
         
         int endSequence = sortedArray[length - 1];
 

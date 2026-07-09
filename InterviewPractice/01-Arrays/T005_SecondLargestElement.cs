@@ -1,3 +1,4 @@
+using InterviewPractice._06_Sorting;
 using InterviewPractice._09_Algorithms;
 
 namespace InterviewPractice._01_Arrays;
@@ -16,7 +17,7 @@ public static class T005_SecondLargestElement
         int[] array = (int[])numbers.Clone();
         int length = array.Length;
 
-        int[] sortedNumbers = BubbleSort.Execute(array, length);
+        int[] sortedNumbers = T061_BubbleSortAndSelectionSort.BubbleSort(array);
         
         int secondLargest = sortedNumbers[length - 2];
         
