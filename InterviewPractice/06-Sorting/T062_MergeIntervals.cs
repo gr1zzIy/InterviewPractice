@@ -19,15 +19,18 @@ public class T062_MergeIntervals
         
         result.Add(sorted[0]);
         
-        for (int i = 0; i < sorted.Length - 1; i++)
+        for (int i = 1; i < intervals.Length; i++)
         {
-            if (sorted[i][1] >= sorted[i + 1][0])
+            int[] lastInterval = result[result.Count - 1];
+            int[] current = sorted[i];
+
+            if (lastInterval[1] >= current[0])
             {
-                result[result.Count - 1][1] = Math.Max(sorted[i][1], sorted[i + 1][1]);
+                lastInterval[1] = Math.Max(current[1], lastInterval[1]);
             }
             else
             {
-                result.Add(sorted[i + 1]);
+                result.Add(current);
             }
         }
         
