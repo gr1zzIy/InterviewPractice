@@ -154,7 +154,9 @@ All for improvement!");
         int[] sortedNumbersBubble = T061_BubbleSortAndSelectionSort.BubbleSort((int[])numbers.Clone());
         int[] sortedNumbersSelection = T061_BubbleSortAndSelectionSort.SelectionSort((int[])numbers.Clone());
 
-        Console.WriteLine($"Bubble Sort Result: [{string.Join(", ", sortedNumbersBubble)}]");
-        Console.WriteLine($"Selection Sort Result: [{string.Join(", ", sortedNumbersSelection)}]");
+        Console.WriteLine($"061/1 - Bubble Sort Result: [{string.Join(", ", sortedNumbersBubble)}]");
+        Console.WriteLine($"061/2 - Selection Sort Result: [{string.Join(", ", sortedNumbersSelection)}]");
+        
+        T062_MergeIntervals.Run(new int[][] { new[] {8,10}, new[] {1,3}, new[] {2,6}, new[] {15,18} });
     }
 }
