@@ -8,8 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="08-Stack\" />
-      <Folder Include="07-Queue\" />
+      <Folder Include="07-Queue &amp; 08-Stack\" />
       <Folder Include="09-LINQ\" />
       <Folder Include="11-Probability\" />
     </ItemGroup>
