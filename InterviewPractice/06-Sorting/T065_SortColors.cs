@@ -23,8 +23,7 @@ public class T065_SortColors
         {
             if (nums[mid] == 0)
             {
-                nums[lo] = nums[mid];
-                nums[mid] = 0;
+                (nums[lo], nums[mid]) = (nums[mid], nums[lo]);
                 lo++;
                 mid++;
             }
@@ -34,8 +33,7 @@ public class T065_SortColors
             }
             else
             {
-                nums[mid] = nums[hi];
-                nums[hi] = 2;
+                (nums[mid], nums[hi]) = (nums[hi], nums[mid]);
                 hi--;
             }
         }
