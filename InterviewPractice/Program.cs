@@ -169,5 +169,6 @@ All for improvement!");
         });
         
         T064_KthLargestElement.Run(new int[] { 3, 2, 1, 5, 6, 4 }, 2); // Expected output: 5
+        T065_SortColors.Run(new int[] { 2, 0, 2, 1, 1, 0 }); // Expected output: [0, 0, 1, 1, 2, 2]
     }
 }
