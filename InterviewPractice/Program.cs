@@ -159,5 +159,13 @@ All for improvement!");
         
         T062_MergeIntervals.Run(new int[][] { new[] {8,10}, new[] {1,3}, new[] {2,6}, new[] {15,18} });
         T062_MergeIntervals.Run(new int[][] { new[] {2,3}, new[] {4,5}, new[] {6,7}, new[] {8,9}, new[] {1,10} });
+        
+        T063_CustomObjectSorting.Run(new List<Employee>
+        {
+            new Employee("Alice", 70000),
+            new Employee("Bob", 50000),
+            new Employee("Charlie", 60000),
+            new Employee("David", 80000)
+        });
     }
 }
