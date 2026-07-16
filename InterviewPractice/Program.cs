@@ -4,6 +4,7 @@ using InterviewPractice._03_Strings;
 using InterviewPractice._04_Dictionary;
 using InterviewPractice._05_HashSet;
 using InterviewPractice._06_Sorting;
+using InterviewPractice._07_Queue___08_Stack;
 
 namespace InterviewPractice;
 
@@ -16,7 +17,8 @@ public class Program
         // StringTasks();
         // DictionaryTasks();
         // HashSetTasks();
-        SortingTasks();
+        // SortingTasks();
+        QueueAndStackTasks();
         
         Console.WriteLine(@"
 --------------------
@@ -170,5 +172,10 @@ All for improvement!");
         
         T064_KthLargestElement.Run(new int[] { 3, 2, 1, 5, 6, 4 }, 2); // Expected output: 5
         T065_SortColors.Run(new int[] { 2, 0, 2, 1, 1, 0 }); // Expected output: [0, 0, 1, 1, 2, 2]
+    }
+    
+    private static void QueueAndStackTasks()
+    {
+        T066_ValidParentheses.Run("()[]{}"); // true
     }
 }
