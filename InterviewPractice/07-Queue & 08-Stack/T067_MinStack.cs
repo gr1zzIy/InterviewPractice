@@ -16,6 +16,8 @@ public class T067_MinStack
 	
 	public static void Run()
 	{
+		Console.WriteLine($"-------------- Start {TASK_NUMBER} - MinStack --------------");
+		
 		MinStack stack = new MinStack();
 
 		stack.Push(1);
@@ -32,6 +34,8 @@ public class T067_MinStack
 		stack.Top();
 		
 		Console.WriteLine($"{TASK_NUMBER} - Stack after top(peak): {stack.Print()}");
+		
+		Console.WriteLine($"-------------- End {TASK_NUMBER} - MinStack --------------");
 	}
 }
 

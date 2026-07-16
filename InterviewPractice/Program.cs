@@ -178,5 +178,6 @@ All for improvement!");
     {
         T066_ValidParentheses.Run("()[]{}"); // true
         T067_MinStack.Run(); // MinStack operations
+        T068_EvaluateReversePolishNotation.Run(new string[] { "2", "1", "+", "3", "*" }); // 9
     }
 }
