@@ -29,7 +29,7 @@ public class T066_ValidParentheses
 			{
 				if (stack.Count == 0 || stack.Pop() != pair)
 				{
-					Console.WriteLine($"T{TASK_NUMBER}: {s} -> Результат: false");
+					Console.WriteLine($"{TASK_NUMBER} - {s} -> Результат: false");
 					return;
 				}
 			}
@@ -39,6 +39,6 @@ public class T066_ValidParentheses
 			}
 		}
 		
-		Console.WriteLine($"T{TASK_NUMBER}: {s} -> Результат: true");
+		Console.WriteLine($"{TASK_NUMBER} - {s} -> Результат: true");
 	}
 }

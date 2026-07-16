@@ -177,5 +177,6 @@ All for improvement!");
     private static void QueueAndStackTasks()
     {
         T066_ValidParentheses.Run("()[]{}"); // true
+        T067_MinStack.Run(); // MinStack operations
     }
 }
