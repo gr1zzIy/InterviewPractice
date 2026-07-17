@@ -41,8 +41,14 @@ public class T067_MinStack
 
 class MinStack
 {
-	Stack<int> stack = new Stack<int>();
-	Stack<int> minStack = new Stack<int>();
+	Stack<int> stack;
+	Stack<int> minStack;
+	
+	public MinStack()
+	{
+		stack = new Stack<int>();
+		minStack = new Stack<int>();
+	}
 	
 	public void Pop()
 	{
